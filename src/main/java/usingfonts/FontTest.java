@@ -10,7 +10,7 @@ import java.util.Arrays;
 public class FontTest {
 
     public static void main(String[] args) throws IOException {
-        /*var fonts = GraphicsEnvironment.getLocalGraphicsEnvironment().getAvailableFontFamilyNames();
+        var fonts = GraphicsEnvironment.getLocalGraphicsEnvironment().getAvailableFontFamilyNames();
         try{
             var fileWriter = new FileWriter("./src/main/resources/fonts.txt");
             var print = new PrintWriter(fileWriter);
@@ -18,7 +18,7 @@ public class FontTest {
         }
         catch (IOException exception){
             System.out.println("exception");
-        }*/
+        }
 
 
         var componentForDisplay = new JComponent(){
