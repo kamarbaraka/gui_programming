@@ -16,11 +16,11 @@ public class WindowTerminator
 
     @Override
     public void windowClosing(WindowEvent event) {
-        /*EventQueue.invokeLater(() -> {
+        EventQueue.invokeLater(() -> {
             System.out.println("in thread");
             JOptionPane.showConfirmDialog(this.parent, "do you really want to exit?");
             System.exit(24);
-        });*/
+        });
         System.out.println("in thread");
         if (JOptionPane.showConfirmDialog(this.parent, "do you really want to exit?") == 0)
             System.exit(24);
